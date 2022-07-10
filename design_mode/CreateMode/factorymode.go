@@ -1,5 +1,11 @@
 package factorymethod
 
+import "fmt"
+
+func init() {
+	fmt.Println(123)
+}
+
 //Operator 是被封装的实际类接口
 type Operator interface {
 	SetA(int)
